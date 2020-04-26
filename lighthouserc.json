@@ -4,7 +4,7 @@
       "numberOfRuns": 3,
       "staticDistDir": "./",
       "url": [
-        "index.html"
+        "https://lighthouse-ci-demo.herokuapp.com/index.html"
       ]
     },
     "upload": {
