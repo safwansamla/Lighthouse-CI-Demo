@@ -2,7 +2,6 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "staticDistDir": "./",
       "url": [
         "https://lighthouse-ci-demo.herokuapp.com/index.html"
       ]
