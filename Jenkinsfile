@@ -9,6 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
+                sh 'npm install -g @lhci/cli@0.3.x'
             }
         }
     }
