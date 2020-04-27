@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'ls -ltra'
-                sh 'npm install -g @lhci/cli@0.3.x'
+                sh 'lhci autorun --upload.target=temporary-public-storage'
             }
         }
     }
