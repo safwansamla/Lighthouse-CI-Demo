@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'apt-get update'
+                sh 'npm install -g @lhci/cli@0.3.x'
             }
         }
     }
