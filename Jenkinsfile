@@ -5,8 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
-                sh 'chmod +x test.sh'
+                sh 'chmod +x *.sh'
                 sh 'ls -ltra'
+                sh './test.sh'
             }
         }
         stage('Test') {
