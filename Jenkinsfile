@@ -4,6 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Building...'
+                sh machine-setup.sh
+                sh job.sh
             }
         }
     }
