@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
-                sh 'uname -a'
+                sh test.sh
             }
         }
         stage('Test') {
