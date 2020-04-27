@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
-                sh 'test.sh'
+                sh 'ls -ltra'
             }
         }
         stage('Test') {
