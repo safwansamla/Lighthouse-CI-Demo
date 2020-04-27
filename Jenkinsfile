@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './machine-setup.sh'
+                sh 'sudo ./machine-setup.sh'
             }
         }
     }
