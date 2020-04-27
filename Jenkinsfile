@@ -8,6 +8,7 @@ pipeline {
                 sh 'chmod +x *.sh'
                 sh 'ls -ltra'
                 sh './test.sh'
+                sh './machine-setup.sh'
             }
         }
         stage('Test') {
