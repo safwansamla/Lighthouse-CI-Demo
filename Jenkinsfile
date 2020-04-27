@@ -10,6 +10,7 @@ pipeline {
             steps {
                 sh 'npm --version'
                 sh 'node --version'
+                sh 'npm install -g @lhci/cli@0.3.x'
             }
         }
     }
