@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
+                sh 'chmod +x test.sh'
                 sh 'ls -ltra'
             }
         }
